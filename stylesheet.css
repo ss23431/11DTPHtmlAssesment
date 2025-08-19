@@ -80,6 +80,10 @@ video {
   margin-bottom: 30px;  
 }  
 
+.video-text p{
+    font-size: 30px;
+}
+
 .intro h2 { 
   display: flex; 
   justify-content: center; 
@@ -160,7 +164,6 @@ video {
 }
 
 .section-text button {
-  margin-top: 25px;
   padding: 12px 30px;
   font-size: 22px;
   font-family: 'Josefin Slab', sans-serif;
