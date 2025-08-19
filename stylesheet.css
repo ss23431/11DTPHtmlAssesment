@@ -92,7 +92,7 @@ video {
 .intro p { 
   display: flex; 
   justify-content: center; 
-  padding: 30px 250px; 
+  padding: 30px 10%;
   font-family: 'Josefin Slab', sans-serif;  
   font-size: 42px; 
   color: #0B5642; 
@@ -109,6 +109,29 @@ video {
   color: #d40426;
   margin-bottom: 40px;
 }
+.section-text h2 {
+  margin-bottom: 20px; 
+  font-family: 'Josefin Slab', sans-serif;
+  font-size: 50px;
+  color: #d40426;
+  padding-right: 0; 
+  text-align: left; 
+}
+
+
+
+.joinus img {      
+  height: auto;     
+  border-radius: 10px;
+  object-fit: cover;  
+  width: 40%;
+
+  
+}
+
+.joinus .section-content {
+  flex-direction: row-reverse; 
+}
 
 .section-content {
   display: flex;
@@ -118,19 +141,10 @@ video {
 }
 
 .aboutus img {
-  width: 700px;      
-  height: 400px;   
+  width: 50%;
+ height: auto;       
   border-radius: 10px;
-  padding-left: 20px;
-  display: block;
-}
-
-.joinus img{
-  width: 500px;      
-  height: 667px;   
-  border-radius: 10px;
-  padding-left: 20px;
-  display: block;
+  object-fit: cover; 
 }
 
 
@@ -159,11 +173,11 @@ video {
 }
 
 .section-text button:hover {
-  background-color: #a9031d;
+  background-color: #0B5642;
 }
 
 
-.footer {
+footer {
   background-color: #0B5642;
   color: white;
   text-align: center;
@@ -171,19 +185,19 @@ video {
   margin-top: 60px;
 }
 
-.footer p {
+footer p {
   margin: 8px 0;
   font-family: 'Josefin Slab', sans-serif;
   font-size: 18px;
 }
 
-.footer a {
+footer a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
-.footer a:hover {
+footer a:hover {
   color: #d40426;
   transition: color 0.3s ease;
 }
