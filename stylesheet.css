@@ -204,3 +204,115 @@ footer a:hover {
   color: #d40426;
   transition: color 0.3s ease;
 }
+
+.aboutsquash {
+  padding: 80px 60px;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 6  0px;
+}
+.about-text {
+  width: 65%;
+}
+
+
+.about-text h2 {
+  font-family: 'Josefin Slab', sans-serif;
+  font-size: 60px;
+  color: #d40426;
+  margin-bottom: 50px;
+  
+}
+
+.about-text h3 {
+  font-family: 'Josefin Slab', sans-serif;
+  font-size: 32px;
+  color: #0B5642;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-family: 'Josefin Slab', sans-serif;
+  font-size: 22px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.aboutsquash img {
+
+  height: 550px;   
+  object-fit: cover; 
+  border-radius: 10px;
+  margin-top: 200px;
+}
+
+
+.join-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  margin: 40px 75px;
+  font-family: 'Josefin Slab', sans-serif;
+  text-align: left;
+}
+
+.join-form label {
+  font-size: 20px;
+  color: #0B5642;
+  font-weight: bold;
+}
+
+.join-form input, 
+.join-form textarea {
+  padding: 10px 15px;
+  font-size: 18px;
+  border: 2px solid #d40426;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.join-form button {
+  width: fit-content;
+  padding: 12px 25px;
+  font-size: 20px;
+  font-family: 'Josefin Slab', sans-serif;
+  background-color: #d40426;
+  color: white;
+  border: none; 
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.join-form button:hover {
+  background-color: #0B5642;
+}
+
+.whyjoin {
+  max-width: 800px;
+  margin: 60px 0 40px 0;
+  font-family: 'Josefin Slab', sans-serif;
+  text-align: left;
+  padding: 0 20px;
+    margin-left: 50px
+}
+
+.whyjoin h2 {
+  font-size: 50px;
+  color: #d40426;
+  margin-bottom: 15px;
+  margin-left: 25px
+}
+
+.whyjoin p {
+  font-size: 22px;
+  color: #0B5642;
+  line-height: 1.6;
+}
