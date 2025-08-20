@@ -60,7 +60,7 @@ video {
   object-fit: cover;
   filter: brightness(25%);
   display: block;
-  border-bottom: 4px solid #d40426;
+
 }  
 
 .video-text {  
