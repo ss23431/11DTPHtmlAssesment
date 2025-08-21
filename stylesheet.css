@@ -145,7 +145,7 @@ video {
 }
 
 .aboutus img {
-  width: 50%;
+  width: 45%;
  height: auto;       
   border-radius: 10px;
   object-fit: cover; 
@@ -205,22 +205,22 @@ footer a:hover {
   transition: color 0.3s ease;
 }
 
-.aboutsquash {
-  padding: 80px 60px;
+.aboutsquash,.ourhistory {
+  padding: 40px 60px;
 }
 
-.about-container {
+.about-container,.history-container {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 6  0px;
 }
-.about-text {
+.about-text,.history-text {
   width: 65%;
 }
 
 
-.about-text h2 {
+.about-text h2 ,.history-text h2 {
   font-family: 'Josefin Slab', sans-serif;
   font-size: 60px;
   color: #d40426;
@@ -236,14 +236,20 @@ footer a:hover {
   margin-bottom: 10px;
 }
 
-.about-text p {
+.about-text,.history-text p {
   font-family: 'Josefin Slab', sans-serif;
   font-size: 22px;
   line-height: 1.6;
   color: #333;
   margin-bottom: 20px;
+  margin-right: 100px;
 }
-
+.ourhistory img{
+  object-fit: cover; 
+  border-radius: 10px;
+  margin-top: 200px;
+  width: 35%;
+}
 .aboutsquash img {
 
   height: 550px;   
@@ -305,10 +311,10 @@ footer a:hover {
 }
 
 .whyjoin h2 {
-  font-size: 50px;
+  font-size: 75px;
   color: #d40426;
   margin-bottom: 15px;
-  margin-left: 25px
+  margin-left: 0;
 }
 
 .whyjoin p {
