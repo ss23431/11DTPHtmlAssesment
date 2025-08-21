@@ -6,11 +6,13 @@ body {
 }  
 
 .navbar {  
+  position: relative;
   background-color: #0B5642;  
   padding: 5px 20px;  
-  top: 0;  
+
   z-index: 100;  
-  border-bottom: 2px solid #d40426;  
+  border-bottom: 2px solid #d40426;
+  
 }  
 
 .navbar-content {  
@@ -60,18 +62,22 @@ video {
   object-fit: cover;
   filter: brightness(25%);
   display: block;
+  z-index: 0;
 
 }  
 
 .video-text {  
   position: absolute;  
-  top: 50%;  
-  left: 50%;  
-  transform: translate(-50%, -50%);  
-  z-index: 2;  
-  color: white;  
-  text-align: center;  
-  font-family: 'Bebas Neue', sans-serif;  
+  inset: 0; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  flex-direction: column;  
+  z-index: 2;
+  color: white;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+
 }  
 
 .video-text h1 {  
@@ -239,7 +245,7 @@ footer a:hover {
 .about-text,.history-text p {
   font-family: 'Josefin Slab', sans-serif;
   font-size: 22px;
-  line-height: 1.6;
+  line-height: 1.7;
   color: #333;
   margin-bottom: 20px;
   margin-right: 100px;
@@ -247,12 +253,12 @@ footer a:hover {
 .ourhistory img{
   object-fit: cover; 
   border-radius: 10px;
-  margin-top: 200px;
-  width: 35%;
+  margin-top: 100px;
+  width: 45%;
 }
 .aboutsquash img {
 
-  height: 550px;   
+  height: 600px;   
   object-fit: cover; 
   border-radius: 10px;
   margin-top: 200px;
@@ -263,10 +269,11 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 700px;
-  margin: 40px 75px;
+  margin-top: 0;     
   font-family: 'Josefin Slab', sans-serif;
   text-align: left;
+  width: 55%; 
+  max-width: 600px; 
 }
 
 .join-form label {
@@ -300,25 +307,40 @@ footer a:hover {
 .join-form button:hover {
   background-color: #0B5642;
 }
-
 .whyjoin {
-  max-width: 800px;
-  margin: 60px 0 40px 0;
+  max-width: 1200px;
+  margin: 60px auto 40px auto;
   font-family: 'Josefin Slab', sans-serif;
   text-align: left;
-  padding: 0 20px;
-    margin-left: 50px
+  padding: 0 50px;   
 }
-
 .whyjoin h2 {
   font-size: 75px;
   color: #d40426;
   margin-bottom: 15px;
-  margin-left: 0;
 }
 
 .whyjoin p {
   font-size: 22px;
   color: #0B5642;
   line-height: 1.6;
+  margin-bottom: 30px;
 }
+
+.form {
+  display: flex;
+  align-items: flex-start;
+  gap: 100px; 
+  margin-top: 30px;   
+}
+.form img {
+  width: 27%;
+  margin-left: 100px;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+
+
+}
+
+
