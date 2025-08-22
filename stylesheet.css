@@ -9,7 +9,6 @@ body {
   position: relative;
   background-color: #0B5642;  
   padding: 5px 20px;  
-
   z-index: 100;  
   border-bottom: 2px solid #d40426;
   
@@ -30,7 +29,9 @@ body {
 .nav-left img {  
   width: 75px;  
 }  
-
+.nav-left a{
+  text-decoration: none;
+}
 #header {  
   color: white;  
   font-family: 'Josefin Slab', sans-serif;  
@@ -51,7 +52,7 @@ body {
 }  
 
 .nav-links a:hover {  
-  transition: color 0.5s ease; 
+  transition: color 0.5S ease; 
   color: #d40426;  
 }  
 
@@ -73,7 +74,7 @@ video {
   justify-content: center; 
   align-items: center;     
   flex-direction: column;  
-  z-index: 2;
+  z-index: 1;
   color: white;
   text-align: center;
   font-family: 'Bebas Neue', sans-serif;
@@ -134,9 +135,7 @@ video {
   height: auto;     
   border-radius: 10px;
   object-fit: cover;  
-  width: 40%;
-
-  
+  width: 35%;
 }
 
 .joinus .section-content {
@@ -177,7 +176,6 @@ video {
   color: white;
   border: none;
   border-radius: 30px;
-  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
@@ -300,7 +298,6 @@ footer a:hover {
   color: white;
   border: none; 
   border-radius: 30px;
-  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
@@ -335,12 +332,11 @@ footer a:hover {
 }
 .form img {
   width: 27%;
-  margin-left: 100px;
+  margin-left: 200px;
+  margin-bottom: 130px;
   height: 100%;
   border-radius: 10px;
   object-fit: cover;
-
-
 }
 
 
